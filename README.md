@@ -8,7 +8,7 @@ We have to secure:
 - URL integrity
 
 Main attacks:
-SQL
+SQLi
 XSS
 CSRF/XSRF
 Path traversal
