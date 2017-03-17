@@ -1,0 +1,97 @@
+@charset "utf-8";
+body {
+}
+
+.fitdays
+{
+    margin-right: auto;
+	margin-left: auto;
+	width:1350px;
+	padding: 0px;
+	margin-top: 10px;
+	margin-bottom: auto;
+	
+	  
+    position: static;
+}
+
+.titlefit
+{
+    
+}.newsConntent .RestConntent .RestTitleBorder .titlefit {
+	font-family: "Trebuchet MS", Arial, Helvetica, sans-serif;
+	font-size: 20px;
+	font-weight: bold;
+	color: #333;
+}
+.newsConntent .newsRightBar {
+	padding-top: -20px;
+	border-top-width: thick;
+	border-right-width: thick;
+	border-bottom-width: thick;
+	border-top-style: solid;
+	border-right-style: solid;
+	border-bottom-style: solid;
+	border-left-style: none;
+	border-top-color: #F8CD0B;
+	border-right-color: #F8CD0B;
+	border-bottom-color: #F8CD0B;
+    border-left-width: thick;
+border-left-style: solid;
+
+border-left-color: #F8CD0B;
+}
+.newsConntent .RestConntent .fancybox #firstImg {
+	border-top-color: #F8CD0B;
+	border-bottom-color: #F8CD0B;
+	border-left-color: #F8CD0B;
+    border-right-width: thick;
+border-right-style: solid;
+border-right-color: #F8CD0B;
+}
+.newsConntent .RestConntent p {
+	font-family: "Trebuchet MS", Arial, Helvetica, sans-serif;
+	font-size: 18px;
+	color: #333;
+}
+.newsConntent .RestConntent .fancybox .imagespace {
+	border-top-style: none;
+	border-right-style: none;
+	border-bottom-style: none;
+	border-left-style: none;
+}
+.newsConntent .RestConntent a .imagespace {
+	border-top-style: none;
+	border-right-style: none;
+	border-bottom-style: none;
+	border-left-style: none;
+}
+
+
+.imagespace
+{
+	margin-top: 10px;
+	margin-bottom: 10px;
+	   
+}
+.newsConntent .newsRightBar div #PreviousNews {
+	color: #F8CD0B;
+}
+.newsConntent .newsRightBar #firstDiv p #smalltext {
+	color: #F8CD0B;
+}
+.newsConntent .newsRightBar #firstDiv p #bigtext:hover {
+	color: #F8CD0B;
+}
+.newsConntent .newsRightBar div p #smalltext {
+	color: #F8CD0B;
+}
+.newsConntent .newsRightBar div p #bigtext:hover {
+	color: #F8CD0B;
+}
+.newsConntent .newsRightBar div p #smalltext {
+	color: #F8CD0B;
+}
+.newsConntent .newsRightBar div p #bigtext:hover {
+	color: #F8CD0B;
+}

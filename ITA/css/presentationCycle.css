@@ -1,0 +1,120 @@
+.pc_container {
+    width: 600px;
+    height: 200px;
+    padding: 15px 1px 47px 1px;
+    background-image: url('../images/pc_bg.png');
+    margin: 0px auto;
+    margin-left: 50px;
+   
+    
+}
+
+.pc_container .pc_item {
+    margin-top: 15px;
+    margin-left: 1px;
+    width: 600px;
+    height: 200px;
+}
+
+.pc_container .pc_bar_container {
+    position: absolute;
+    top: 230px;
+    color: white;
+    padding: 0px 10px 0px 10px;
+    width: 100%;
+    overflow:visible;
+}
+
+.pc_bar_container_underflow {
+    width: 90000px;
+    overflow: visible;
+}
+
+.pc_bar_container_overflow {
+    overflow: hidden;
+    position: absolute;
+    top: 230px;
+    color: white;
+    margin: 0px 10px 0px 10px;
+    padding: 0px;
+}
+
+.left, .center, .right {
+    background-position: left;
+    background-repeat: no-repeat;
+    overflow: hidden;
+    font-size: 1px;
+    float: left;
+}
+
+.bar {
+    background-position: left;
+    overflow: hidden;
+    font-size: 1px;
+    float: left;
+}
+
+.pc_item .desc {
+    position: absolute;
+    width: 250px;
+    padding: 10px;
+    height: 180px;
+    line-height: 1.8em;
+    right: 0px;
+    background-image: url(../images/slide_fade.png);
+}
+
+.pc_item .desc h1 {
+    color: #DE8F26;    
+}
+.pc_item .desc {
+	color: #DE8F26;
+	font-size: 17px;
+	font-weight: bold;    
+}
+
+#footer{
+	bottom: 0px;
+	left: 0;
+	border-top:20px;
+	width: 100%;
+	height: 40px;
+	background-color: #000;
+}
+
+#footerbar{
+    width: auto;
+    height: 5px;
+    left: 0;
+    right: 0;
+    background-color: #E11C2A;
+}
+
+#footercontent {
+    width: 1024px;
+    margin-top: 15px;
+    margin-left: auto;
+    margin-right: auto;
+    height: 20px;
+}
+
+#footer #footerbar #footercontent p a
+{
+    font-family: "MS Serif", "New York", serif;
+	font-size: 17px;
+	font-weight: bold;
+	color: #CCC;
+	display: block;
+	text-align:center;
+    margin-top: 5px;
+    margin-bottom: 5px;
+    
+    padding-top: 10px;
+    
+    text-decoration: none;
+}
+
+#footer #footerbar #footercontent p a:hover
+{
+    color: #FFF;
+}

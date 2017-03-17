@@ -1,0 +1,32 @@
+.PowerliftingConntent .PowerliftingText ul li {
+    
+     font-family: "Times New Roman", Times, serif;
+    	font-size:18px;
+     width: 200px;
+}
+
+.PowerliftingConntent .PowerliftingText #imgWM {
+    width: 600px;
+  
+    
+}
+.PowerliftingConntent .PowerliftingText ul {
+    width: 250px;
+    float:left;
+}
+
+
+.PowerliftingConntent .PowerliftingText .rightImgWM {
+    margin-top: -40px;
+}
+.PowerliftingConntent .rightBar {
+	height:640px;
+    position: fixed;
+    margin-left: 1050px;
+    
+}
+
+.PowerliftingConntent .rightBar a img
+{
+    padding-left: 10px;
+}

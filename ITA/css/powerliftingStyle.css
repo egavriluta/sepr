@@ -1,0 +1,156 @@
+
+
+.PowerliftingConntent
+{	margin-right: auto;
+	margin-left: auto;
+	width:1350px;
+	padding: 0px;
+	margin-top: 0px;
+	margin-bottom: auto;
+	
+	border-right-width: thin;
+	border-bottom-width: thin;
+	border-right-style: solid;
+	border-bottom-style: solid;
+	border-right-color: #CCC;
+	border-bottom-color: #CCC;    
+    position: static;
+}
+
+.PowerliftingConntent .PowerliftingText 
+{
+	width:925px;
+    margin-left: 100px;
+	
+}
+
+.PowerliftingConntent .PowerliftingText  #PowerliftingTitle
+{
+    font-family: "Times New Roman", Times, serif;
+	font-size: 24px;
+	font-weight: bolder;
+	text-transform: uppercase;
+	color: #E11C2A;
+    text-align: center;
+}
+
+.PowerliftingConntent .PowerliftingText #firstleftimg
+{
+    float: left;
+    padding-right: 20px;
+    
+}
+.PowerliftingConntent .PowerliftingText p
+{
+    font-family: "Times New Roman", Times, serif;
+    	font-size:18px;
+}
+
+.PowerliftingConntent .PowerliftingText .lastP
+{
+	padding-bottom: 20px;
+	border-bottom-width: thin;
+	border-bottom-style: solid;
+	border-bottom-color: #CCC;
+}
+.PowerliftingConntent .PowerliftingText .TextTitle {
+	font-family: "Times New Roman", Times, serif;
+	font-size: 24px;
+	font-weight: bolder;
+	color: #000;
+    text-align: center;
+}
+.PowerliftingConntent .PowerliftingText #lineImg {
+    width: 943px;
+    
+}
+
+.PowerliftingConntent .PowerliftingText .rightImg
+
+{
+    float:right;
+    padding-left:20px;
+}
+
+.PowerliftingConntent .PowerliftingText .leftImg
+{
+  float:left;
+    padding-right: 20px;
+}
+
+.PowerliftingConntent .rightBar
+{
+    margin-top: 0px;
+    width: 280px;
+  
+  
+    float:right;
+   
+    border-left-width: thin;
+border-left-style: solid;
+
+border-left-color: #CCC;
+     height: 2177px;
+   
+}
+.PowerliftingConntent .rightBar #PowerliftingFederations {
+	font-family: "MS Serif", "New York", serif;
+	font-size: 26px;
+	color: #E11C2A;
+	margin-left:8px;
+    margin-right: 8px;
+    margin-top: 0px;
+	border-top-width: thin;
+	border-bottom-width: thin;
+	border-top-style: solid;
+	border-bottom-style: solid;
+	border-top-color: #CCC;
+	border-bottom-color: #CCC;
+	font-weight: bold;
+	text-transform: uppercase;
+    text-align: center;
+}
+.PowerliftingConntent .rightBar div p{
+	font-family: "MS Serif", "New York", serif;
+	font-size: 22px;
+	font-weight: bold;
+	color: #000; text-align: center;
+    padding-bottom: 15px;
+    border-bottom-width: thin;
+border-bottom-style: solid;
+border-bottom-color: #CCC;
+    margin-left:8px;
+    margin-right: 8px;
+    
+}
+
+.PowerliftingConntent .rightBar div p a{
+    text-decoration: none;
+    color:#000;
+}
+
+
+.PowerliftingConntent .rightBar div
+{
+    opacity: 0.5;
+}
+
+.PowerliftingConntent .rightBar div:hover
+{
+    opacity: 1;
+    
+}
+.PowerliftingConntent .rightBar div:hover p a
+{
+    color:#E11C2A;
+}
+
+.PowerliftingConntent .rightBar div a #smallImg {
+    padding-left: 5px;
+}
+
+
+.PowerliftingConntent .rightBar div a #WPC {
+    padding-left: 15px;
+}
+

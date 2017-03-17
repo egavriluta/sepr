@@ -1,0 +1,90 @@
+body {
+}
+.PowerliftingConntent .PowerliftingText {
+	width:800px;
+}
+
+.PowerliftingConntent .PowerliftingText div {
+	widows:800px;
+	text-align:center;
+}
+.PowerliftingConntent .PowerliftingText p {
+	font-family: Verdana, Geneva, sans-serif;
+	font-size: 16px;
+	color: #333;
+}
+.PowerliftingConntent .PowerliftingText #PowerliftingTitle {
+	color: #004A95;
+}
+.PowerliftingConntent .PowerliftingText div .fancybox img {
+	border-bottom-width: thick;
+	border-bottom-style: solid;
+	border-bottom-color: #004A95;
+	border-left-width: thick;
+	border-left-style: solid;
+	border-left-color: #004A95;
+}
+.PowerliftingConntent .PowerliftingText ul li {
+	font-family: Verdana, Geneva, sans-serif;
+	font-size: 16px;
+	color: #333;
+}
+
+.PowerliftingConntent .PowerliftingText .rightP {
+	margin-left: 80px;
+	width:600px;
+}
+.PowerliftingConntent .PowerliftingText table tr td {
+	font-family: Verdana, Geneva, sans-serif;
+	font-size: 16px;
+	color: #333;
+	padding:8px;
+}
+.PowerliftingConntent .PowerliftingText #PowerliftingTitle {
+	font-size: 36px;
+}
+.PowerliftingConntent .rightBar {
+	width:400px;
+	background:#6881F4;
+	height:4610px;
+	border-right-width: thick;
+	border-right-style: solid;
+	border-right-color: #E11C2A;
+	
+	
+	
+}
+.PowerliftingConntent .rightBar #CrossFitRightBar {
+	font-family: "MS Serif", "New York", serif;
+	font-size: 30px;
+	font-weight: bold;
+	text-transform: uppercase;
+	border-top-width: thin;
+	border-bottom-width: thin;
+	border-top-style: solid;
+	border-bottom-style: solid;
+	border-top-color: #FFF;
+	border-bottom-color: #FFF;
+	text-align:center;
+	margin-left:5px;
+	margin-right:5px;
+	color:#FFF;
+}
+
+.PowerliftingConntent .rightBar div{
+	width:400px;
+	text-align:center;
+	opacity:1;
+	
+}
+
+.PowerliftingConntent .rightBar div p{
+	border-bottom-color:#FFF;
+	color:#FFF;
+	
+}
+
+.PowerliftingConntent .rightBar {
+	margin-left:0px;
+	
+}

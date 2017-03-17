@@ -1,0 +1,189 @@
+.newsConntent .newsRightBar {
+	width: 420px;
+  margin-top: 90px;
+
+   height: 860px;
+margin-left: 1050px;
+  float: right;
+  background:#FFF;
+
+    position: absolute;
+    overflow-y:scroll;
+    overflow-x: hidden;
+}
+.newsConntent .newsRightBar div #PreviousNews {
+	font-family: "MS Serif", "New York", serif;
+	font-size: 24px;
+	font-weight: bold;
+	text-transform: uppercase;
+	color: #E11C2A;
+	text-align: center;
+	display: block;
+	padding-top: 5px;
+	padding-bottom: 5px;
+	border-top-width: thin;
+	border-bottom-width: thin;
+	border-top-style: solid;
+	border-bottom-style: solid;
+	border-top-color: #CCC;
+	border-bottom-color: #CCC;
+	margin-top:0px;
+	margin-left:5px;
+	margin-right:5px;
+    width: 390px;
+    margin-left: -1px;
+    opacity: 1;
+    padding: 5px;
+    margin-bottom: 13px;
+	
+}
+
+.newsConntent .newsRightBar div a img {
+	margin-left: 10px;
+	float: left;
+    margin-bottom: 25px;
+}
+.newsConntent .newsRightBar div  {
+float: left;
+    padding-top: 15px;
+    border-bottom: solid thin #CCC;
+    width: 400px;
+    margin-left: 8px;
+    opacity: 0.85;
+}
+.newsConntent .newsRightBar div:hover
+{opacity: 1;
+}
+
+.newsConntent .newsRightBar div p #smalltext {
+	font-family: "Courier New", Courier, monospace;
+	font-size: 16px;
+	color: #E11C2A;
+	text-decoration: none;
+	list-style-type: none;
+	font-weight: bold;
+	display:block;
+     margin-left: 190px;
+}
+.newsConntent .newsRightBar div p #bigtext {
+	font-family: "MS Serif", "New York", serif;
+	font-size: 20px;
+	font-weight: bold;
+	text-transform:uppercase;
+	color: #000;
+	text-decoration: none;
+	display: block;
+	list-style-type: none;
+    margin-left: 190px;
+    
+    
+}
+.newsConntent .newsRightBar div p #bigtext:hover
+{color: #E11C2A;
+}
+.newsConntent .newsRightBar #firstDiv {
+	margin-top: 10px;
+    padding-top: 0px;
+}
+.newsConntent .newsRightBar {
+	border-right-width: thick;
+	border-right-style: solid;
+	border-right-color: #E11C2A;
+}
+.newsConntent .RestConntent #firstImg {
+	border-top-width: thick;
+	border-bottom-width: thick;
+	border-top-style: solid;
+	border-bottom-style: solid;
+	border-top-color: #E11C2A;
+	border-bottom-color: #E11C2A;
+    border-left: thick;
+border-left-style: solid;
+	border-left-color: #E11C2A;
+}
+.newsConntent .RestConntent .RestTitleBorder #mainTitle {
+	font-family: Georgia, "Times New Roman", Times, serif;
+	font-size: 36px;
+	font-weight: bold;
+	text-transform: capitalize;
+	color: #000;
+    margin-bottom: 0px;
+}
+.newsConntent .RestConntent .RestTitleBorder .RestTitle {
+	font-family: "Lucida Console", Monaco, monospace;
+	font-size: 18px;
+	color: #999;
+    margin-bottom: 30px;
+}
+.newsConntent .RestConntent img {
+	border-left-width: thick;
+	border-left-style: solid;
+	border-left-color: #E11C2A;
+}
+.newsConntent .RestConntent h2 {
+	font-family: Georgia, "Times New Roman", Times, serif;
+	color: #E11C2A;
+}
+.newsConntent .RestConntent p {
+	font-family: "Times New Roman", Times, serif;
+	font-size: 18px;
+	color: #000;
+    
+}
+
+
+
+
+.newsConntent .newsRightBar {
+	border-top-width: thick;
+	border-bottom-width: thick;
+	border-top-style: solid;
+	border-bottom-style: solid;
+	border-top-color: #E11C2A;
+	border-bottom-color: #E11C2A;
+}
+
+
+
+
+
+.newsConntent .newsRightBar div p #smalltext:hover
+{
+	color:#000;
+	
+}
+
+.newsConntent .RestConntent
+
+{  width: 925px;
+  margin-left: 100px;
+}
+
+.newsConntent
+{margin-right: auto;
+	margin-left: auto;
+	width:1350px;
+	padding: 0px;
+	margin-top: 20px;
+	margin-bottom: auto;
+	
+	border-right-width: thin;
+	border-bottom-width: thin;
+	border-right-style: solid;
+	border-bottom-style: solid;
+	border-right-color: #CCC;
+	border-bottom-color: #CCC;    
+    position: static;
+}
+
+.newsConntent .RestConntent .lastP
+{
+	padding-bottom: 20px;
+	border-bottom-width: thin;
+	border-bottom-style: solid;
+	border-bottom-color: #CCC;
+}
+#excuse
+{
+    margin-top: 10px;
+}

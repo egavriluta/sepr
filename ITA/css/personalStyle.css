@@ -1,0 +1,12 @@
+body {
+}
+.PowerliftingConntent .PowerliftingText p {
+	font-family: "Comic Sans MS", cursive;
+	font-size: 18px;
+	color: #333;
+}
+
+.PowerliftingConntent .rightBar
+{
+    height: 820px;
+}

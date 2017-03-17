@@ -1,0 +1,74 @@
+@charset "utf-8";
+.ContactInfo {
+	margin-right: auto;
+	margin-left: auto;
+	width:1350px;
+	padding: 0px;
+	margin-top: 0px;
+	margin-bottom: auto;
+	height:700px;
+	position: static;
+	background:#706F6D;
+	display: block;
+	border-right-width: medium;
+	border-bottom-width: medium;
+	border-left-width: medium;
+	border-right-style: solid;
+	border-bottom-style: solid;
+	border-left-style: solid;
+	border-right-color: #E11C2A;
+	border-bottom-color: #E11C2A;
+	border-left-color: #E11C2A;	
+    margin-top: 10px;
+	
+}
+
+.ContactInfo .ContactBody {
+	width:450px;
+	margin-left: 100px;
+	height: 300px;
+	position:absolute;
+	display: block;
+	margin-top: 150px;
+	margin-left: 400px;
+    float: left;    
+		
+	
+}
+.ContactInfo img {
+	
+	margin-left:0px;
+	margin-top:65px;
+    float: right;
+    margin-right: 360px;
+		
+}
+.ContactInfo .ContactBody form table tr td label {
+	font-family: "Times New Roman", Times, serif;
+	font-weight: bold;
+	color: #FFF;
+    margin-left: -70px;
+    
+}
+
+#comentsId
+{
+    width: 620px;
+    margin-top: 100px;
+    margin-left: -145px;
+    height: 250px;
+}
+#lbComents {
+    position: absolute;
+   
+    margin-top: 70px;
+    
+}
+
+.ContactInfo .ContactBody form table tr td #submitBt
+{
+    margin-left: 452px;
+    width: 100px;
+    height: 40px;
+    
+}
