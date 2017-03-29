@@ -27,38 +27,38 @@ include 'core/init.php';
    
  
    else 
-   {       
-       
-      $login = login($username, $password);
-      if($login === false)
-      {
-			if(isset($_COOKIE['attempts'])) 
+   {
+   		if (!isset($_COOKIE['attempts'])
+   		{
+   			setcookie('attempts', 0, time()+60*10); // initialize cookie to 0 if not present
+   		}
+
+      	if (isset($_COOKIE['attempts'])) // cookie is now set or we had it already
+      	{	
+			if($_COOKIE['attempts'] < 3) // attempts are less than 3 so we continue
 			{
-				if($_COOKIE['attempts'] < 3) 
-				{
-			    	$attempts = $_COOKIE['attempts'] + 1;
-			    	$remaining = 3 - $attempts;
-			    	setcookie('attempts', $attempts, time()+60*10); //cookie for 10 min + store attempts
+				$login = login($username, $password); 	// we try to login
+      			if($login === false) 					// failed to login 
+			    {
+			    	$attempts = $_COOKIE['attempts'] + 1; // increment the cookie
+			    	$remaining = 3 - $attempts; // variable for showing remaining attempts in error
+			    	setcookie('attempts', $attempts, time()+60*10); //setcookie for 10 min + store attempts
 			    	$errors[] = 'That username and password combination is incorrect! Tries remaining: ' + $remaining + '.';
-				} 
-				else 
-				{
-			    	$errors[] = 'You have tried to login 3 times! You are now banned for 10 minutes';
-				}
+			    }
+			    else 
+      			{
+			    	setcookie('attempts', '1' , time() - 3600); //cookie for 10 min + store attempts      				
+         			$_SESSION['userid'] = $login;
+         			header('Location: index.php');
+         			exit();
+      			}
 			} 
-			else 
+			else // attempts are more than 3 so we say you are banned and have to wait until cookie expires
 			{
-				setcookie('attempts', 1, time()+60*10); //cookie for 10 min + attempts to 1
-				$errors[] = 'That username and password combination is incorrect!';
+		    	$errors[] = 'You have tried to login 3 times! You are now banned for 10 minutes.';
 			}
-      }
-      else 
-      {
-         $_SESSION['userid'] = $login;
-         header('Location: index.php');
-         exit();
-      }
-      
+		}    	
+      }      
    }  
 }
 
