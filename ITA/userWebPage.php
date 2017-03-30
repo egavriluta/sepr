@@ -39,7 +39,7 @@ include 'upload.php';
         
         
     <div id="UserAcc" class="Wallpaper" style="background-image: 
-         url('<?php echo wallpaper_img($user_data['wallpaperimg'])?> ')">
+         url('<?php echo htmlspecialchars(wallpaper_img($user_data['wallpaperimg']))?> ')">
         
         <style>
 .Wallpaper {
@@ -78,9 +78,10 @@ include 'upload.php';
 </style>
  
         <div id="UserAccContent" >
-            <a href=<?php echo profile_img($user_data['profileimg'])?> class="fancybox" rel="group"><img src=<?php echo profile_img($user_data['profileimg'])?> alt="" height="300" width="300" id="userImg"/></a>
-     <p id="pusername"><?php echo $user_data['firstname']; ?> <?php echo $user_data['lastname']; ?></p>
-  <p id="pcategory"><?php echo $user_data['category']; ?></p>
+            <a href=<?php echo 
+	(profile_img($user_data['profileimg']))?> class="fancybox" rel="group"><img src=<?php echo htmlspecialchars(profile_img($user_data['profileimg']))?> alt="" height="300" width="300" id="userImg"/></a>
+     <p id="pusername"><?php echo htmlspecialchars($user_data['firstname']); ?> <?php echo htmlspecialchars($user_data['lastname']); ?></p>
+  <p id="pcategory"><?php echo htmlspecialchars($user_data['category']); ?></p>
         </div>
 <style>
     #userImg
@@ -152,7 +153,7 @@ endwhile;
             <div class="main">
 		<div class="accordion">
 			<div class="accordion-section">
-                            <a class="accordion-section-title" href="#accordion-1">Full name:<?php repeat_str('&nbsp;',30); ?><?php echo $user_data['firstname']; ?> <?php echo $user_data['lastname']; ?> <div class="edit">Edit</div> </a>
+                            <a class="accordion-section-title" href="#accordion-1">Full name:<?php repeat_str('&nbsp;',30); ?><?php echo htmlspecialchars($user_data['firstname']); ?> <?php echo htmlspecialchars($user_data['lastname']); ?> <div class="edit">Edit</div> </a>
 				<div id="accordion-1" class="accordion-section-content">
                                     <div class="formwra">
 					<form class="form" id="form1" action="userWebPage.php" method="POST">
