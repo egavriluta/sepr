@@ -16,9 +16,9 @@
             echo " 
                 <div class='messageUser'>
                 <img src='$image' alt='user image' height='80' width='80' class='mesageImage'/>
-                <a href='http://athena.fhict.nl/users/i324079/ITA/profile.php?username=".$name."'><p class='messageName'>".$name."</p></a>
+                <a href='http://athena.fhict.nl/users/i324079/ITA/profile.php?username=".htmlspecialchars($name)."'><p class='messageName'>".htmlspecialchars($name)."</p></a>
                 <p class='messageText' >
-                ".$text."
+                ".htmlspecialchars($text)."
                 </p>
                 <p class='timeMessage'>Posted at: ".curenttime()."</p>
                 </div>
