@@ -46,7 +46,7 @@ include 'ChatPoster.php';
     
     <div class="chatContainer">
         <div class="chatHeader">
-            <h3>Welcome <?php echo $user_data['username']?>!</h3>
+            <h3>Welcome <?php echo htmlspecialchars($user_data['username'])?>!</h3>
             
         </div>
                 
@@ -56,7 +56,7 @@ include 'ChatPoster.php';
         <div class="chatBottom">
             <form action="#" onsubmit="return false;" id="ChatForm">
                 
-                <input type="hidden" id="name" value="<?php echo $user_data['username']?>"/>
+                <input type="hidden" id="name" value="<?php echo htmlspecialchars($user_data['username'])?>"/>
                 <input type="text" name="text" id="text" value="" placeholder="Your message"/>
                 <input type="submit" name="submit" value="Post"/>
             </form>
