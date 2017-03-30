@@ -58,7 +58,7 @@ if(isset($_GET['username']) === true && empty($_GET['username']) === false)
         
         
     <div id="UserAcc" class="Wallpaper" style="background-image: 
-         url('<?php echo wallpaper_img($profile_data['wallpaperimg'])?>')">
+         url('<?php echo htmlspecialchars(wallpaper_img($profile_data['wallpaperimg']))?>')">
         
         <style>
 .Wallpaper {
@@ -97,9 +97,9 @@ if(isset($_GET['username']) === true && empty($_GET['username']) === false)
 </style>
  
         <div id="UserAccContent" >
-            <a href=<?php echo profile_img($profile_data['profileimg'])?> class="fancybox" rel="group"><img src=<?php echo profile_img($profile_data['profileimg'])?> alt="" height="300" width="300" id="userImg"/></a>
-            <p id="pusername"><?php echo $profile_data['firstname']?> <?php echo $profile_data['lastname']?></p>
-  <p id="pcategory"><?php echo $profile_data['category']?> </p>
+            <a href=<?php echo htmlspecialchars(profile_img($profile_data['profileimg']))?> class="fancybox" rel="group"><img src=<?php echo htmlspecialchars(profile_img($profile_data['profileimg']))?> alt="" height="300" width="300" id="userImg"/></a>
+            <p id="pusername"><?php echo htmlspecialchars($profile_data['firstname'])?> <?php echo htmlspecialchars($profile_data['lastname'])?></p>
+  <p id="pcategory"><?php echo htmlspecialchars($profile_data['category'])?> </p>
         </div>
 <style>
     #userImg
